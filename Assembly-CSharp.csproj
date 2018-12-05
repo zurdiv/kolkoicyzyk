@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GridSpace.cs" />
+    <Compile Include="Assets\Scripts\LerpIcon.cs" />
     <Compile Include="Assets\Scripts\MusicPlaylist.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/UnityProjects/KolkoiCyzykRepo/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

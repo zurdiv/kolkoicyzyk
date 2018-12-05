@@ -20,21 +20,16 @@ public class PlayerColor
 
 public class GameController : MonoBehaviour {
 
-    public GameObject gameOverPanel;
-    public GameObject restartButton;
-    public GameObject startInfo;
-
+    public GameObject gameOverPanel, restartButton, startInfo;
     public Text gameOverText;
     public Text[] buttonList;
-
-    public Player playerX;
-    public Player playerO;
-    public PlayerColor activePlayerColor;
-    public PlayerColor inactivePlayerColor;
+    public Player playerX, playerO;
+    public PlayerColor activePlayerColor, inactivePlayerColor;
 
     private string playerSide;
     private int moveCount;
     private bool gameFinished; //Jeden case remisu. 1 3 9 7 4 2 6 8 5
+
 
     private void Awake()
     {
@@ -211,6 +206,5 @@ public class GameController : MonoBehaviour {
             buttonList[i].GetComponentInParent<Button>().interactable = toggle;
         }
     }
-
 }
 
